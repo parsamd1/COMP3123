@@ -1,0 +1,13 @@
+{
+  "name": "WEEK4",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  },
+  "author": "Parsa Majdol Hosseini 101356047",
+  "scripts": {
+    "start": "node index.js",
+    "start2": "nodemon index.js"
+  }
+}
