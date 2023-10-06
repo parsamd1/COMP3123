@@ -12,8 +12,8 @@ app.get("/user", (req, res)=>{
 
 app.post("/user/:firstname/:lastname", (req, res)=>{
     let name={
-        firstname:req.params.firstname,
-        lastname:req.params.lastname
+        fname:req.params.firstname,
+        lname:req.params.lastname
     }
     res.send(name)
 })
